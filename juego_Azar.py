@@ -10,12 +10,12 @@ for num in range(3):
     if num < 1:
         print(f"{nombre} No esta permitido ese valor")
     elif num > 100:
-        print(f"{nombre}No esta permitido ese valor")
+        print(f"{nombre} No esta permitido ese valor")
     elif num < aleatorio:
         print(f"{nombre} El numero que ingreso es menor al correcto")
     elif num > aleatorio:
          print(f"{nombre} El numero que ingreso es mayor al correcto")
     elif num == aleatorio:
-        print(f"{nombre}El numero que ingreso es correcto! HAZ GANADO EL JUEGO")
+        print(f"{nombre} El numero que ingreso es correcto! HAZ GANADO EL JUEGO")
         break
 print(aleatorio)
